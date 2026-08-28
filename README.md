@@ -2,14 +2,15 @@
 
 A 2,499-question multiple-choice question bank generated from the **Splunk Enterprise Search Reference 10.4.0** manual (`splunkSearchManual.pdf`, 983 pages), covering the full Search Processing Language (SPL): every command, every eval/statistical/charting function, time modifiers, quick-reference material, and CLI usage.
 
+Originally intended to test various LLMs innate ability to generate Splunk queries.  But there might be other use cases.
+
 ## Files
 
 | File | Description |
 |---|---|
 | `splunk_mcq_questions.json` | The question bank — 2,499 questions as a JSON array. |
-| `splunk_mcq_statistics.md` | Breakdown of question counts by chapter/subtopic, plus answer-distribution and answer-length-bias metrics. |
-| `splunkSearchManual.pdf` | The source manual the questions were drawn from. |
-| `work/` | Intermediate build artifacts (page-range allocation, per-command text extracts, generation/review prompts, per-batch outputs) — kept as an audit trail back to the source text for any question. |
+| `splunk_mcq_statistics.md` | Breakdown of question counts by chapter/subtopic, plus answer-distribution and answer-length-bias metrics. 
+
 
 ## Question schema
 
@@ -33,7 +34,7 @@ Each entry in `splunk_mcq_questions.json`:
 }
 ```
 
-`source_page` is the 1-indexed physical page in `splunkSearchManual.pdf` the question was drawn from, so every answer can be traced back to the manual text.
+`source_page` is the 1-indexed physical page in Splunk Search Manual (10.4.0 16 August 2026) the question was drawn from, so every answer can be traced back to the manual text.  Download the pdf to align the pages to the document.  
 
 ## How it was built
 
