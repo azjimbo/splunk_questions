@@ -4,6 +4,13 @@ A 2,499-question multiple-choice question bank generated from the **Splunk Enter
 
 Originally intended to test various LLMs innate ability to generate Splunk queries.  But there might be other use cases.
 
+##Creation
+Generated using Sonnet 5 on August 28th 2026
+-The Prompt:
+Using the pdf manual here: splunkSearchManual.pdf (local file name for the Aug 16th 2026 version 10.4.0) create 2500 multiple choice questions (four options for each question, A-D) based on the material in this document.  Distribute the questions proportionally across topics based on the size of the topic in the manual. Ensure the output does not have answer length bias and the correct answer choice is dispersed across the four options.  
+Output the questions in a json report in the same directory.  Review the questions once complete and ensure there are no ambiguous questions and that all questions can be answered by a human or machine. Last, create a second document that provides statistics about the questions just created broken down by topic.   
+
+
 ## Files
 
 | File | Description |
