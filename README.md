@@ -29,11 +29,11 @@ source PDF (e.g. the ~640-page Search Commands chapter accounts for ~68% of the 
   measured and reduced (from 45.3% to 32.7% "correct answer is the longest option") and the
   residual is reported transparently rather than hidden.
 
-See [`splunkQuestions/README.md`](splunkQuestions/README.md) for the full write-up, including
+See the README.md for the full write-up, including
 detailed ideas for using it as an LLM benchmark (accuracy by chapter/subtopic, SPL-generation
 eval extensions, regression gating for a Splunk-focused assistant).
 
-## Splunk Simple XML Dashboards MCQ Bank (`xmlTest/`)
+## Splunk Simple XML Dashboards MCQ Bank 
 
 Covers classic (non–Dashboard Studio) Splunk dashboards built with Simple XML: dashboard/form
 structure, every visualization type (tables, charts, maps, single values, gauges, trellis
@@ -55,7 +55,7 @@ proportional to each topic's word count in the source documentation.
   near-duplicate sweep also caught and rewrote questions that tested the same fact twice with
   slightly different wording.
 
-See [`xmlTest/README.md`](xmlTest/README.md) for the full write-up, the original prompt that
+See the folder's README.md for the full write-up, the original prompt that
 kicked off the build, and the JSON schema.
 
 ## What the two banks have in common
