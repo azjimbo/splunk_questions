@@ -7,8 +7,8 @@ or section of an official Splunk manual.
 
 | Directory | Question bank | Questions | Source manual |
 |---|---|---:|---|
-| [`splunkQuestions/`](splunkQuestions/) | Splunk Search Reference MCQ Bank | 2,499 | *Splunk Enterprise Search Reference* 10.4.0 (983-page PDF) |
-| [`xmlTest/`](xmlTest/) | Splunk Simple XML Dashboards MCQ Bank | 2,500 | *Simple XML dashboards* manual (help.splunk.com, 10.4) |
+| Splunk Search Reference MCQ Bank | 2,499 | *Splunk Enterprise Search Reference* 10.4.0 (983-page PDF) |
+| Splunk Simple XML Dashboards MCQ Bank | 2,500 | *Simple XML dashboards* manual (help.splunk.com, 10.4) |
 
 Each directory has its own `README.md` with full details — schema, build methodology,
 limitations, and directory-specific use cases. This top-level file summarizes both so the two
