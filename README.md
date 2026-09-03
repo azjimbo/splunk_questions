@@ -5,7 +5,7 @@ major areas of Splunk Enterprise: the Search Processing Language (SPL) and class
 dashboard building. Together they total **4,999 questions**, each traceable to a specific page
 or section of an official Splunk manual.
 
-| Directory | Question bank | Questions | Source manual |
+| Question bank | Questions | Source manual |
 |---|---|---:|---|
 | Splunk Search Reference MCQ Bank | 2,499 | *Splunk Enterprise Search Reference* 10.4.0 (983-page PDF) |
 | Splunk Simple XML Dashboards MCQ Bank | 2,500 | *Simple XML dashboards* manual (help.splunk.com, 10.4) |
