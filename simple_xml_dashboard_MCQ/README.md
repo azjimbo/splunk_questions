@@ -80,22 +80,21 @@ Each entry is an object with these fields:
 
 ```json
 {
-  "id": "XMLQ-0001",
-  "id_num": 1,
-  "topic": "introduction",
-  "subtopic": "introduction/getting-started",
-  "source_url": "https://help.splunk.com/.../introduction/getting-started",
-  "question": "Which source code format does the Splunk Dashboard Studio framework use for dashboard objects and the entire dashboard?",
-  "options": {
-    "A": "YAML-formatted manifests",
-    "B": "HTML5 markup",
-    "C": "Simple XML",
-    "D": "JSON-formatted stanzas"
-  },
-  "correct_answer": "D",
-  "explanation": "..."
-}
-```
+    "id": "XMLQ-1268",
+    "id_num": 1268,
+    "topic": "drilldown-and-dashboard-interactivity",
+    "subtopic": "drilldown-and-dashboard-interactivity/chart-controls",
+    "source_url": "https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports/simple-xml-dashboards/10.4/drilldown-and-dashboard-interactivity/chart-controls",
+    "question": "In the dual-axis overlay example, what \"Scale\" setting is chosen for the second Y-axis?",
+    "options": {
+      "A": "Custom",
+      "B": "Inherit",
+      "C": "Fixed",
+      "D": "Log"
+    },
+    "correct_answer": "B",
+    "explanation": "The dual-axis example sets Scale to Inherit from the first Y-axis."
+  },```
 
 - **`id`** — a unique, sequential identifier (`XMLQ-0001` through `XMLQ-2500`).
 - **`topic`** / **`subtopic`** — the manual section and specific page the question is drawn
