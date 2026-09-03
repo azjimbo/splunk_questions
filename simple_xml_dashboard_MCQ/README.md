@@ -94,7 +94,8 @@ Each entry is an object with these fields:
     },
     "correct_answer": "B",
     "explanation": "The dual-axis example sets Scale to Inherit from the first Y-axis."
-  },```
+  }
+```
 
 - **`id`** — a unique, sequential identifier (`XMLQ-0001` through `XMLQ-2500`).
 - **`topic`** / **`subtopic`** — the manual section and specific page the question is drawn
