@@ -1,6 +1,7 @@
 # Splunk Documentation MCQ Banks
 
-Two independently-generated, documentation-grounded multiple-choice question banks covering
+Following the form and format of the CyberMetric Dataset benchmarking tool (https://github.com/cybermetric/CyberMetric), I generated these MCQ Banks.
+These are two independently-generated, documentation-grounded multiple-choice question banks covering
 major areas of Splunk Enterprise: the Search Processing Language (SPL) and classic (Simple XML)
 dashboard building. Together they total **4,999 questions**, each traceable to a specific page
 or section of an official Splunk manual.
